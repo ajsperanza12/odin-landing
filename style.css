@@ -1,6 +1,8 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .top-section {
@@ -11,8 +13,8 @@
 .top-bar {
     display: flex;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .top-links {
@@ -26,11 +28,8 @@
     justify-content: center;
     padding: 25px;
     gap: 15px;
-}
-
-.top-text-container {
-    display: flex;
-    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .sign-up-button {
@@ -38,12 +37,13 @@
     padding: 10px;
     border-style: solid;
     border-radius: 5px;
+    width: fit-content;
 }
 
 .top-box {
     background-color: gray;
-    width: 200px;
-    height: 125px;
+    width: 250px;
+    height: auto;
 }
 
 .image-section {
